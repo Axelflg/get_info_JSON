@@ -15,7 +15,7 @@
          Program that loads the 'calificaciones_filtrado.JSON' file and get the average
 	 time for the property time through regular expressions
 	 
-   Autor: Axel Flores Guarneros					                        	
+   Author: Axel Flores Guarneros					                        	
    
 #*************************************************************************************
 
