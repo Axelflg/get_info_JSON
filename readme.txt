@@ -3,17 +3,13 @@
                        Universitat Politècnica de València
 	            Dpto. de Sistemas Informáticos y Computación
 				   
-   Description: 
-      -> get_names.py
-         Program that loads the 'calificaciones_filtrado.JSON' file and get the name 
-	 for each place, then add the property
-      -> search_time.py
-         Program that loads the 'calificaciones_filtrado.JSON' file and get the time 
-	 that a person spend in a place through Selenium, afterward add the property 
-	 to the JSON
-      -> get_time.py
-         Program that loads the 'calificaciones_filtrado.JSON' file and get the average
-	 time for the property time through regular expressions
+   Description:    
+      -> Find_info.py
+	 Firstly loads the 'calificaciones_filtrado.JSON' file and get the name 
+	 for each place.
+	 Afterward gets the time that a person spends in a place through Selenium and 
+	 Finally, gets the average time through regular expressions and add the
+	 "tiempo_medio" property. 
 	 
    Author: Axel Flores Guarneros					                        	
    
