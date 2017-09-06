@@ -96,7 +96,7 @@ def get_time(tiempo):
 
 def main():
     # Read the original JSON
-    path_input_file = 'calificaciones_filtrado.JSON'
+    path_input_file = 'puntos_de_interes.JSON'
 
     with open(path_input_file, "r") as input_file:
         data = json.load(input_file)
@@ -159,7 +159,7 @@ def main():
         cont=0
 
     # Write the output file
-    path_output_file = 'calificaciones_filtrado.JSON'
+    path_output_file = 'puntos_de_interes.JSON'
 
     with open(path_output_file, "w") as output_file:
         json.dump((result), output_file, indent=3)
